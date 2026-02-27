@@ -469,7 +469,7 @@ footer { background:#07030F;border-top:1px solid rgba(200,155,224,.1);padding:50
 
 /* ── RESPONSIVE ── */
 @media(max-width:960px){
-  nav{padding:18px 24px;} .nav-book{display:none;}
+  nav{display:block;padding:18px 24px;} .nav-book{display:none;}
   /* show a compact, touch-friendly nav on mobile */
   .nav-links{display:flex;gap:12px;align-items:center;}
   .nav-links a{font-size:.72rem;padding:8px 6px;}
@@ -482,14 +482,16 @@ footer { background:#07030F;border-top:1px solid rgba(200,155,224,.1);padding:50
   .footer-inner{grid-template-columns:1fr;} .hero-scroll{display:none;}
   .about-photos{height:420px;} .f-row{grid-template-columns:1fr;}
   .bf-content{padding:0 24px;} .hero-ctas{flex-direction:column;}
+  .wa-btn{width:48px;height:48px;font-size:1.2rem;bottom:0px;right:0px; position: absolute;}
 }
 </style>
 </head>
 <body>
 
-<a href="https://wa.me/918088733470" target="_blank" class="wa-btn" title="WhatsApp Us">💬</a>
+ <a href="https://wa.me/918088733470" target="_blank" class="wa-btn" title="WhatsApp Us">💬</a>
 
   <nav role="navigation" aria-label="Main navigation">
+   
   <a class="logo" href="#">
     NAVIKA MAKE OVER
     <sub>Bengaluru</sub>
@@ -500,6 +502,7 @@ footer { background:#07030F;border-top:1px solid rgba(200,155,224,.1);padding:50
     <li><a href="#gallery">Gallery</a></li>
   </ul>
   <a href="#contact" class="nav-book">Contact Us</a>
+  
 </nav>
 
 <!-- HERO -->
