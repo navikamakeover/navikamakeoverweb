@@ -126,8 +126,9 @@ button[type="submit"] { cursor:pointer; }
 }
 .hero-img {
   position:absolute;inset:0;
-  background-image: url('/assets/images/Picture2.jpg');
+  background-image:url('/assets/images/Picture4.jpg'), url('/assets/images/Picture2.jpg'),url('/assets/images/Picture5.jpg');
   background-size:auto;background-position:center;
+  background-repeat: no-repeat, repeat,repeat;
   animation:zoomOut 14s ease both;
 }
 @keyframes zoomOut { from{transform:scale(1.12)} to{transform:scale(1.03)} }
